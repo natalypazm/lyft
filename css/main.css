@@ -1,0 +1,48 @@
+*{
+	outline: 1px solid red;
+	background-color:black;
+	margin:0;
+	padding:0;
+	/*background-image:url(../cuidad1.jpg);*/
+}
+body{
+	
+}
+.titulo{
+	margin:100px 0;
+	color:white;
+	text-align:center;
+}
+button{
+	border-radius:3px;
+	border:1px solid #CCC;
+	color:white !important;
+	height:50px;
+	width:130px;
+}
+.botones{
+
+	position: absolute;
+	bottom:15px;
+	text-align:center;
+	width:100%;
+	
+}
+
+/*
+
+@media screen and (max-width:999px) and (min-width:768px){
+	button{
+	border-radius:3px;
+	border:1px solid #CCC;
+	color:white;
+	width:140px;
+	height:50px;
+	margin:0 10px!important;
+	padding:0 !important;
+}
+.col-botones{
+	margin:570px 0;
+}
+*/
+
