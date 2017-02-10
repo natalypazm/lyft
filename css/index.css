@@ -1,12 +1,16 @@
 *{
-	outline: 1px solid red;
-	background-color:black;
+	/*background-color:pink;*/
 	margin:0;
 	padding:0;
-	/*background-image:url(../cuidad1.jpg);*/
+
 }
-body{
-	
+.cuerpo{
+	background-image:url(../fondo1.jpg);
+	background-position:top;
+}
+.lyft{
+	margin:auto;
+	width:25%;
 }
 .titulo{
 	margin:100px 0;
@@ -15,10 +19,13 @@ body{
 }
 button{
 	border-radius:3px;
-	border:1px solid #CCC;
-	color:white !important;
+	border:1px solid white;
 	height:50px;
 	width:130px;
+	background:transparent;
+}
+button a{
+	color:white !important;
 }
 .botones{
 

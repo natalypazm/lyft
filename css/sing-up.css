@@ -1,0 +1,23 @@
+
+.cuerpo{
+	text-align:center;
+	margin: 50px auto;
+}
+p{
+	font-weight:bolder;
+}
+h3{
+	font-weight:700 !important;
+}
+.next{
+	width:100%;
+	background-color:#ff1dbc;
+	border:1px solid #ff1dbc;
+	padding:15px;
+	bottom:-100px;
+	position:relative;
+}
+.next a{
+	color:white;
+	font-size:25px;
+}
