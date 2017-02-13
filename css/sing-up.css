@@ -21,3 +21,13 @@ h3{
 	color:white;
 	font-size:25px;
 }
+input{
+	width:90%;
+	border-radius: 3px;
+	border:1px solid #CCC;
+	padding-left:30px;
+}
+label{
+	position:relative;
+	left:25px;
+}
