@@ -11,11 +11,11 @@
 </head>
 <body>
 <div class="container-fluid cuerpo">
-	<a href="index.html"><img class="img-responsive pull-left" width="30px" style="margin-top:15px;" src="back.png"></a>
+	<a href="index.html"><img id="back" class="img-responsive pull-left" width="30px" style="margin-top:15px;" src="back.png"></a>
 	<h3 style="margin-right:10%">Sign Up</h3>
 	<p>Join now for free ride credit</p>
 	<hr>
-	<select>d</select><input placeholder="11234567" type="text" name="number" required pattern="[01]{8}">
+	<select>d</select><input placeholder="11234567" type="text" name="number" required value="" maxlength="9" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
 	<br><br>
 	<p>We'll send a text to verify your phone </p>
 	<button class="next"><a href="sing-up-datos.html">Next</a></button>
@@ -23,4 +23,5 @@
 	
 </body>
 <script src="js/bootstrap.min.js"></script>
+<script type="js/sing-up.js"></script>
 </html>

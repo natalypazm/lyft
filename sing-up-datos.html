@@ -11,19 +11,20 @@
 </head>
 <body>
 <div class="container-fluid cuerpo">
-	<a href="index.html"><img class="img-responsive pull-left" width="30px" style="margin-top:15px;" src="back.png"></a>
+	<a href="sing-up.html"><img class="img-responsive pull-left" width="30px" style="margin-top:15px;" src="back.png"></a>
 	<h3 style="margin-right:10%">Sign Up</h3>
 	<p>Join now for free ride credit</p>
 	<hr>
-	<label><img src="user.png"></label><input class="nombre" placeholder="First Name    Last Name" type="text" name="number"><br><br>
-	<label><img src="mail.png"></label><input placeholder="Email" type="text" name="number"><br><br>
+	<label><img id="nombre" src="img/user.png"></label><input class="nombre" placeholder="First Name    Last Name" type="text" name="number" maxlength="30"><br><br>
+	<label><img id="email" src="img/mail.png"></label><input placeholder="Email" type="text" name="number" maxlength="50"><br><br>
 	<div>
 	<span><input type="checkbox" name="check" style="width:30px">I agree to Lyft´s <span style="color:skyblue">Terms of Service</span></span>
 	
 	</div>
-	<button class="next"><a href="#">Next</a></button>
+	<button class="next" style="display:block"><a href="#">Next</a></button>
 </div>
 	
 </body>
 <script src="js/bootstrap.min.js"></script>
+<script type="js/sing-up.js"></script>
 </html>

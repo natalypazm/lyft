@@ -5,7 +5,7 @@
 
 }
 .cuerpo{
-	background-image:url(../fondo1.jpg);
+	background-image:url(../img/fondo1.jpg);
 	background-position:top;
 }
 .lyft{
@@ -26,6 +26,7 @@ button{
 }
 button a{
 	color:white !important;
+	text-decoration:none;
 }
 .botones{
 
@@ -35,21 +36,15 @@ button a{
 	width:100%;
 	
 }
-
-/*
-
-@media screen and (max-width:999px) and (min-width:768px){
-	button{
-	border-radius:3px;
-	border:1px solid #CCC;
-	color:white;
-	width:140px;
-	height:50px;
-	margin:0 10px!important;
-	padding:0 !important;
+button:hover{
+background: rgba(168,0,191,1);
+background: -moz-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(168,0,191,1)), color-stop(19%, rgba(168,0,191,1)), color-stop(100%, rgba(203,96,179,1)));
+background: -webkit-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: -o-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: -ms-linear-gradient(left, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+background: linear-gradient(to right, rgba(168,0,191,1) 0%, rgba(168,0,191,1) 19%, rgba(203,96,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a800bf', endColorstr='#cb60b3', GradientType=1 );
+	color: white;
 }
-.col-botones{
-	margin:570px 0;
-}
-*/
 

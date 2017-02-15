@@ -1,7 +1,6 @@
-
 .cuerpo{
 	text-align:center;
-	margin: 50px auto;
+	margin: 30px auto;
 }
 p{
 	font-weight:bolder;
@@ -21,6 +20,7 @@ h3{
 	color:white;
 	font-size:25px;
 }
+
 input{
 	width:90%;
 	border-radius: 3px;
