@@ -19,7 +19,7 @@ h3{
 }
 
 input{
-	width:90%;
+	width:90% !important;
 	border-radius: 3px;
 	border:1px solid #CCC;
 	padding-left:30px;
@@ -27,4 +27,7 @@ input{
 label{
 	position:relative;
 	left:25px;
+}
+.check{
+	width: 10% !important;
 }
