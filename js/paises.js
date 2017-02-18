@@ -5,6 +5,7 @@ function init(){
 var paises = JSON.parse(jsonPaises);
 var leng = paises.length; 
 console.log(paises[0].nombre);
+var pais=localStorage.getItem('paises[0].nombre');
   
 var lista = document.getElementById("lista-paises");
   

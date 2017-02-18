@@ -30,23 +30,3 @@ function nextpage() {
     location.href='sing-up-datos.html';
 }
 
-
-
-
-
-/*
-function getRandomArbitrary(min, max){
-        return Math.random() * (max - min) + min;
-
-}
-function codigo(){
-        var lab= "LAB-";
-        var numAle= getRandomArbitrary(100,999);
-        var codeGenerado=lab+Math.floor(numAle);
-        localStorage.setItem('codigo',codeGenerado);
-        alert("su codigo es: "+codeGenerado);
-    
-      	var buttonNext= document.getElementById("nextDatos");
-    	buttonNext.addEventListener('click', codeGenerado);
-}
-*/
